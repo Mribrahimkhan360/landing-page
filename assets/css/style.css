@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('../../assets/img/nbg.jpg');
+	background-size: cover;
+}
+nav{
+	width: 100%;
+	height: 100px;
+	/*background: white;*/
+	color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.menu>ul>li{
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+}
+.logo{
+	font-size: 2em;
+	color: white;
+	letter-spacing: 2px;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.menu ul li a:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 0%;
+	border-bottom: 2px solid indianred; 
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-ms-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+	transition: 0.4s linear;
+	
+}
+.register ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	background: indianred;
+	border-radius: 8px;
+	transition: 0.4s;
+}
+.register ul li a:hover{
+	background: transparent;
+	border: 1px solid indiarend;
+}
+.h-txt{
+	max-width: 650px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.h-txt span{
+	letter-spacing: 5px;
+	color: white;
+}
+.h-txt h1{
+	color: white;
+	font-size: 3.4em;
+}
+.h-txt a
+{
+	text-decoration: none;
+	background: indianred;
+	color: white;
+	padding: 10px 20px;
+	letter-spacing: 5px;
+}
+.menu>ul>li>a:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 0%;
+	border-bottom: 2px solid indianred; 
+	-webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-ms-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+	transition: 0.4s linear;
+	
+}
+.menu a:hover:before{
+	width: 90%;
+
+}
+.register a{
+
+}
